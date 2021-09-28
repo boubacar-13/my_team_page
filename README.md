@@ -10,8 +10,8 @@
   <h3>
     <!--<a href="https://{your-demo-link.your-domain}">
       Demo
-    </a>-->
-    <span> | </span>
+    </a>
+    <span> | </span>-->
     <a href="https://github.com/boubacar-13">
       Solution
     </a>
@@ -38,7 +38,6 @@
 
 <img src="./images/larger_screen.png" alt="larger screen challenge">
 <img src="./images/smaller_screen.png" alt="smaller screen challenge">
-
 
 ### Built With
 
