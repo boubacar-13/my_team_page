@@ -1,0 +1,83 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%;
+}
+:root {
+  --grey-50: #f9fafb;
+  --grey-900: #111827;
+  --black: #222;
+  --transition: 0.3s ease-in-out all;
+}
+
+.container {
+  width: 92vw;
+  height: 95vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  margin: 2rem 0 2rem;
+  font-size: 2.8rem;
+}
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.presentation p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.pictures-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1.5rem;
+  column-gap: 6%;
+}
+.picture-item {
+  position: relative;
+}
+.image-container {
+  width: 80%;
+}
+.image-container img {
+  display: block;
+  width: 100%;
+}
+.name {
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.job {
+  text-transform: uppercase;
+  font-weight: lighter;
+  position: absolute;
+  top: 21%;
+  left: 52%;
+  transform: rotate(90deg);
+  text-align: left;
+  width: 70%;
+}
+
+.picture-item:nth-child(even) {
+  padding-top: 3rem;
+}
+.picture-item:nth-child(even) .job {
+  top: 36%;
+}
+footer {
+  height: 7rem;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  color: #a9a9a9;
+}
